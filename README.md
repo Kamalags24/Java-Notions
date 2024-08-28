@@ -68,4 +68,15 @@ public record Person(String name, int age) {
 
 ### Conclusion
 
+
+
+The power of REST lies in the way it references a Resource, and what the Request and Response look like for each CRUD operation. Let’s take a look at what our API will look like when we're done with this course:
+
+For CREATE: use HTTP method POST.
+For READ: use HTTP method GET.
+For UPDATE: use HTTP method PUT.
+For DELETE: use HTTP method DELETE.
+
+
+
 Les *records* en Java sont une fonctionnalité puissante pour créer des classes immuables de manière concise. Ils sont parfaits pour les classes porte-données où les principales préoccupations sont le stockage et la manipulation de valeurs, sans nécessiter des méthodes complexes ou des comportements supplémentaires.
